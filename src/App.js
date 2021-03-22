@@ -1,23 +1,21 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import HelloWorld from './Components/HelloWorld'
+import CounterExample from './Components/CounterExample'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         HEllo I am the best Full Stack developer in the world 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+   
+  {/*<CounterExample />*/}
+  
+  <Header />
+   <HelloWorld name ="Yvan Ruben" />
+   <Footer />
+      
     </div>
   );
 }
